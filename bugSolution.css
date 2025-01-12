@@ -1,0 +1,11 @@
+/* Solution: Use different units within calc() or adjust your CSS structure to avoid relying on percentage calculations in nested elements.  For example: */
+
+#container {
+  width: 50%;
+}
+
+#element {
+  width: calc(50% - 20px); /* Use pixels instead of percentage */
+}
+
+/* Or a restructuring of the CSS to avoid nested percentage calculations altogether. */
